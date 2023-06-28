@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+
+   
+
+body{
+   
+   font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 83px;
+   
+    background-color: white;
+}
+
+.div-logo{
+    margin-left: 73px;
+}
+.logo-kadea{
+    width: 234px;
+    
+}
+
+.class-name{
+    margin-right: 73px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) ,  rgba(0, 0, 0, 0.5)), url("images/image-banner.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 639px;
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+
+.banner div h2{
+    width:823px ;
+    font-size: 30px;
+    text-align: center;
+   line-height: 1;
+    
+    font-weight: 500;
+    margin-top:-90px;
+
+}
+
+.banner div h1{
+    font-weight: 700;
+   
+    font-size: 96px;
+    text-align: center;
+    line-height: 116.18px;
+}
+
+/* section programme de formation */
+
+section h2{
+    text-align: center;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.programme-formation{
+    height: 588px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+   
+
+}
+
+.div-inline{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.div-inline div{
+    width: 290px;
+    height: 275px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: rgba(204, 209, 208, 0.199) 10px 8px 10px;
+}
+
+.div-inline div:hover{
+    box-shadow: rgba(87, 2, 2, 0.199) -8px 8px 8px;
+    
+}
+
+
+.div-inline div p{
+    font-size: 15px;
+}
+
+.div-inline div img{
+    width: 100px;
+}
+
+.div-inline div h3{
+    font-size:25px ;
+}
+
+/* Section nos projets */
+
+.projets, .coach-section,footer {
+    background-color: #D39393 ;
+    padding: 40px 20px;
+   
+     
+}
+
+ .temp-fort {
+    padding: 40px 20px;
+}
+
+.div-our-projets{
+
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+.projet-bloc{
+  
+    width: 1000px;
+}
+
+.line-project{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.line-inverse-project{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:end;
+   
+}
+
+.line-project div{
+    margin-right: 20px;
+      
+}
+.line-project div h3, .line-inverse-project div h3{
+    
+    font-size: 24px;
+    line-height: 1px;
+}
+
+.line-project div p, .line-inverse-project div p{
+    
+    font-size: 18px;
+    line-height: 18px;
+    
+}
+
+
+
+.line-inverse-project div{
+    margin-left: 20px;
+    text-align: end;
+}
+
+
+.image-project img{
+    
+    max-width: 250px;
+    max-height: 238px;
+}
+
+.projet-description a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+.div-inline img{
+    max-width: 400px;
+    max-height: 350px;
+    
+}
+
+/* Nos coach */
+
+.coach-section{
+margin-bottom: 0;
+}
+.coach{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.coach div{
+    width: 200px;
+
+   
+}
+
+/* team */
+
+.team{
+    
+    background-color: #D9D9D9;
+    height: 636px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.image-team-k img{
+   
+    height: 436px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+footer p{
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 700px;
+}
+
+
+/* Affichage mobile */
+
+@media screen and (max-width:600px) {
+  
+  
+    body{
+        font-size: 18px;
+        
+    }
+    /* header */
+
+    .header{
+        display: initial;
+        position: initial;
+         text-align: center;
+        padding: 10px; 
+        height: 150px;
+      
+    
+    }
+
+    .logo-kadea{
+        width: 200px;
+      
+        
+    }
+    
+
+    .div-logo{
+       margin-left: 0;
+       
+    }
+    .class-name{
+
+         margin-right: 0;
+  
+    }
+
+    .class-name h3{
+        line-height: 0.3;
+        font-size: 25px;
+
+    }
+    
+
+    .banner{
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        height: 640px;
+        position: relative;
+
+    }
+    .banner div h1{
+        font-size: 48px;
+        line-height: 40px;
+        width: 400px
+    }
+
+    .banner div h2{
+        font-size: 20px;
+        line-height:24px;
+        text-align: center;
+        width: 400px;
+        margin-top: -15px;
+        
+       
+    }
+
+    .banner-text{
+       
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: space-around;
+        justify-content: center; 
+    }
+
+    section h2{
+        font-size: 24px;
+       
+    }
+
+    .programme-formation{
+        display: initial;
+        
+      
+      
+       
+    }
+
+    .div-inline{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .div-inline div{
+       margin-bottom: 15px;
+       box-shadow: rgba(209, 205, 205, 0.199) -8px 8px 8px;
+    }
+
+    
+.div-inline div img{
+    width:70px;
+}
+.div-inline div p{
+    line-height: 19px;
+}
+.div-inline div h3{
+    font-size: 20px;
+}
+
+/* projets */
+
+.div-our-projets{
+    padding-top: 30px;
+}
+
+.line-project{
+    display: initial;
+    
+   
+}
+.projet-bloc{
+  
+    width: initial;
+}
+.line-inverse-project{
+    display: initial;
+   
+   
+    
+}
+
+.line-project div{
+    margin-right: auto;
+    text-align: center;
+    
+    
+      
+}
+.line-inverse-project div{
+    margin-left: auto;
+    text-align: center;
+}
+
+.projet-description{
+    max-width: 400px;
+    margin-bottom: 60px;
+}
+
+.line-project div h3, .line-inverse-project div h3{
+    
+    font-size: 20px;
+    line-height: 1px;
+}
+
+.projet-description a{
+    
+    padding: 8px;
+    font-size: 16px;
+   
+}
+
+.image-project img{
+    
+    max-width: 400px;
+    max-height: 350px;
+}
+ 
+.temp-fort .div-inline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* team */
+
+.team{
+    height: 380px;
+}
+
+ 
+.image-team-k img{
+    max-width: 400px;
+    height:auto
+}
+
+footer{
+    height: 470px;
+}
+
+footer p{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700px;
+}
+
+.coach{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap:25px ;
+    margin-top: 40px;
+}
+
+.coach img{
+    width: 209px;
+}
+.coach div{
+    width: 209px;
+   
+}
+
+.coach1 div h3{
+    font-size: 2Opx;
+    font-weight: 4OO;
+}
+
+
+    
+}
